@@ -1,0 +1,22 @@
+.middle {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+}
+
+.book-card {
+    border: 3px solid black;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 15%;
+}
+
+.delete-btn {
+    margin-left: 25px;
+}
